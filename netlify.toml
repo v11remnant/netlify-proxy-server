@@ -3,3 +3,4 @@
   to = "http://www.wchin.top:8210/:splat"   # 也可填域名，如 http://nas.example.com:5000/
   status = 200
   force = true
+  conditions = {Scheme = "https"} 
